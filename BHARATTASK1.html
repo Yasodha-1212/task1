@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+   <style>
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNhrG5bf9nxS54v58Ox_Z9mISmOM9z8Fveg&s');
+        background-repeat: no-repeat;
+        background-size:cover;
+       
+    }
+    header{
+        max-width:1240px;
+        color:aliceblue;
+        padding-left: 900px;
+        min-height:100px;
+        margin:0 auto;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .mybutton {
+        padding: 10px 25px;
+        border: 1px solid aliceblue;
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    .right-buttons {
+        display: flex;
+        align-items: center;
+    }
+    main{
+        text-align: center;
+        color:white;
+        font-size: 25px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    form {
+        margin-top: 20px;
+        text-align: center;
+    }
+    input[type="email"],
+    button[type="submit"] {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid aliceblue;
+        border-radius: 5px;
+    }
+    .get-started-button {
+        background-color: red;
+        border: 1px solid red;
+    }
+    .login-button {
+        margin-right: 10px; /* Added margin between buttons */
+    }
+   </style>
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div class="right-buttons">
+                <a href="#" class="mybutton login-button">Login</a> <!-- Added class for login button -->
+                <a href="#" class="mybutton" style="background-color: red;text-align: center;">Sign in</a>
+            </div>
+        </header>
+    </div>
+    <div class="main-container">
+        <main>
+            <h2>
+                Unlimited Movies, TV<br> Shows, and More..
+            </h2>
+        </main>
+    </div>
+    <div class="middle-container">
+        <main>
+            <p style="padding-top:80px; padding-bottom:1px;font-size:13px;text-align:center;">Watch anywhere.cancel anywhere.</p>
+            <p style="padding-top:1px; padding-bottom:5px; font-size:13px;text-align: center;">Ready to watch? Enter your email to create or restart your membership.</p>
+            <form>
+                <input type="email" placeholder="Email address" required>
+                <button type="submit" class="get-started-button">Get Started</button>
+            </form>
+
+        </main>
+    </div>
+</body>
+</html>
+
+
